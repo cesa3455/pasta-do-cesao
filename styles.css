@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #008C45; /* Verde */
+    color: #FFD700; /* Amarelo */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FFD700; /* Linha amarela abaixo do cabeçalho */
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    color: #FFD700; /* Amarelo */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #005cbf; /* Azul */
+}
+
+h2 {
+    border-bottom: 2px solid #FFD700; /* Amarelo */
+    padding-bottom: 10px;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bio img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #008C45; /* Verde */
+    color: #FFD700; /* Amarelo */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #008C45; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005cbf; /* Azul escuro */
+}
